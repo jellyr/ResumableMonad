@@ -59,8 +59,9 @@
     <None Include="ResumableMonadDoc.fsx" />
     <None Include="builddoc.fsx" />
     <Compile Include="Zero.fs" />
-    <Compile Include="ResumableMonad.fs" />
+    <Compile Include="ResumableMonad.Multistep.Serialized.fs" />
     <None Include="Example.fsx" />
+    <Compile Include="ResumableMonad.Multistep.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="CSharpFormat">
